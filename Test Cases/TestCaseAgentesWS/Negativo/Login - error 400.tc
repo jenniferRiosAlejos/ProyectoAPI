@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - error 400</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04733d96-5853-4d1c-817d-d1e4734740a0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7151fa3d-a790-4bbc-99f3-f1dec102b03f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.user</defaultValue>
+      <description></description>
+      <id>7151fa3d-a790-4bbc-99f3-f1dec102b03f</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+</TestCaseEntity>

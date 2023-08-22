@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - error 401</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de72d6c4-0a60-4eaf-bd5d-689b12610448</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67a08650-f909-4bef-bb15-ef05179e63db</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.user</defaultValue>
+      <description></description>
+      <id>67a08650-f909-4bef-bb15-ef05179e63db</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+</TestCaseEntity>
