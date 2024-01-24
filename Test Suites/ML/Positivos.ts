@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Positivos</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>f902c618-e18a-4464-83ae-8d07877d76df</testSuiteGuid>
+   <testCaseLink>
+      <guid>42b508e9-31ef-4447-b367-2a024fea3a7f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Mercado Libre/Positivos/Oauth Carrier</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8c88c64f-1c0d-4ec5-978d-40db5fc0fa55</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b4dc86b9-19f4-4436-9de0-1f2755930a62</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a631c8e2-6375-42ff-ab2c-5915eb2d2752</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ML/audience List</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0e8adf33-d80c-418f-a6c5-4ea429923e43</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a631c8e2-6375-42ff-ab2c-5915eb2d2752</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>audience</value>
+         <variableId>de688b78-b9e4-44bc-9d01-017db869ea5c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e15adf4e-bdd2-4eb1-92a0-97e2479fe3ec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Mercado Libre/Positivos/Agencias</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0c6eea7a-16c4-4883-b261-3c934fcc387b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Mercado Libre/Positivos/Agencias - Validacion respuesta</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Oauth Carrier</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32485542-825a-4823-aa3e-44433f8a676c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8c88c64f-1c0d-4ec5-978d-40db5fc0fa55</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.tokenGlobal</defaultValue>
+      <description></description>
+      <id>8c88c64f-1c0d-4ec5-978d-40db5fc0fa55</id>
+      <masked>false</masked>
+      <name>tokenLocal</name>
+   </variable>
+</TestCaseEntity>
