@@ -17,15 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Response1 = WS.sendRequest(findTestObject('Desarrollo ML/Oauth Carrier - 200'))
+Response = WS.sendRequest(findTestObject('Desarrollo ML/Oauth/Oauth Carrier - 400'))
 
-Token = WS.getElementPropertyValue(Response1, 'access_token')
+print(Response.getResponseText())
 
-print(Token)
-
-Response2 = WS.sendRequest(findTestObject('Desarrollo ML/Agencias - 200'))
-
-print(Response2.getResponseText())
-
-WS.verifyResponseStatusCode(Response2, 200)
+WS.verifyResponseStatusCode(Response, 400)
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Oauth Carrier - 200 - audience</name>
+   <name>Oauth Carrier - iteración</name>
    <tag></tag>
    <elementGuidId>5e9b83d1-a06b-4372-8400-518861e28fae</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -11,7 +11,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;audience\&quot;: \&quot;${audience}\&quot;,\n    \&quot;grant_type\&quot;: \&quot;client_credentials\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;audience\&quot;: \&quot;${audience}\&quot;,\n    \&quot;grant_type\&quot;: \&quot;${grant_type}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -51,6 +51,13 @@
       <id>492e66c8-a710-4285-a6d1-a191611d68fa</id>
       <masked>false</masked>
       <name>audience</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.passglobalcorrecto</defaultValue>
+      <description></description>
+      <id>b766b16b-8039-4650-9d1a-d21cc0b603f6</id>
+      <masked>false</masked>
+      <name>grant_type</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

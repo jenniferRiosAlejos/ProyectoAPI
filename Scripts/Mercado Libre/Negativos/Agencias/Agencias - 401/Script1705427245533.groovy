@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Response = WS.sendRequest(findTestObject('Desarrollo ML/Oauth Carrier - 401'))
+WebUI.callTestCase(findTestCase('Mercado Libre/Positivos/Oauth/Oauth Carrier'), [:], FailureHandling.STOP_ON_FAILURE)
 
-print(Response.getResponseText())
+Response2 = WS.sendRequest(findTestObject('Desarrollo ML/Agencias/Agencias - 401'))
 
-WS.verifyResponseStatusCode(Response, 401)
+WS.verifyResponseStatusCode(Response2, 401)
+
+print(Response2.getResponseText())
 

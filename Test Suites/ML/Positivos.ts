@@ -15,7 +15,7 @@
       <guid>42b508e9-31ef-4447-b367-2a024fea3a7f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mercado Libre/Positivos/Oauth Carrier</testCaseId>
+      <testCaseId>Test Cases/Mercado Libre/Positivos/Oauth/Oauth Carrier</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -27,8 +27,8 @@
    <testCaseLink>
       <guid>b4dc86b9-19f4-4436-9de0-1f2755930a62</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Mercado Libre/Positivos/Oauth Carrier - iteraciones audience</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mercado Libre/Positivos/Oauth/Oauth Carrier - iteraciones audience</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a631c8e2-6375-42ff-ab2c-5915eb2d2752</id>
@@ -51,19 +51,25 @@
          <value>audience</value>
          <variableId>de688b78-b9e4-44bc-9d01-017db869ea5c</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>a631c8e2-6375-42ff-ab2c-5915eb2d2752</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>grant_type</value>
+         <variableId>fb274ddb-3f8a-4f5f-b41c-902960b4e175</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>e15adf4e-bdd2-4eb1-92a0-97e2479fe3ec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mercado Libre/Positivos/Agencias</testCaseId>
+      <testCaseId>Test Cases/Mercado Libre/Positivos/Agencia/Agencias</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0c6eea7a-16c4-4883-b261-3c934fcc387b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mercado Libre/Positivos/Agencias - Validacion respuesta</testCaseId>
+      <testCaseId>Test Cases/Mercado Libre/Positivos/Agencia/Agencias - Validacion respuesta</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

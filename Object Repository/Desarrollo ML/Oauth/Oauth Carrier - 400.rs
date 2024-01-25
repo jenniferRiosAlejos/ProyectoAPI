@@ -3,7 +3,7 @@
    <description></description>
    <name>Oauth Carrier - 400</name>
    <tag></tag>
-   <elementGuidId>a853fab5-a553-41c1-88c2-d18806f11f03</elementGuidId>
+   <elementGuidId>255a6df5-49fb-4c62-8d56-826b9501c3d1</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>false</autoUpdateContent>
@@ -11,8 +11,8 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;audience\&quot;: \&quot;\&quot;,\n    \&quot;grant_type\&quot;: \&quot;client_credentials\&quot;\n}&quot;,
-  &quot;contentType&quot;: &quot;text/plain&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;audience\&quot;: \&quot;agencies\&quot;,\n    \&quot;grant_type\&quot;: \&quot;client_credentials\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
    <httpBodyType>text</httpBodyType>
@@ -21,15 +21,15 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>text/plain</value>
-      <webElementGuid>61709f57-5965-4170-a745-08ada7540c72</webElementGuid>
+      <value>application/json</value>
+      <webElementGuid>d21e7987-4d1e-4831-b9c2-c51fe33bb6df</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Basic eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIkMmEkMTAkZ2c1Sjc4RUxjcGhKYS8yc0tadGpJLjh1QllGbS9OMERyZ3BSaG53b1lQeXlPdDdVNVg5SzIiLCJleHAiOjE3MDU5NjE1MTYsImF1ZGllbmNlIjoiYWdlbmNpZXMiLCJub21icmUiOiIzMTk5MjI4In0.iyZWyijRKCTfiD-ZJfiBbEZRDRVtSB--I0wQKDzaYZLvqwRaPQqFE5nRTfUCLOaNS-w0tP2KleieyKhBMJd17g</value>
+      <value>Basic MzE5OTIyODovRDdxZ3piNmR4YnBZQmlPNlZVZko3RVA5L2FaYlVleFJLS01paWtaT2RjdnNidWZIMVVwREE9PQ==</value>
       <webElementGuid>25cf2df2-c1f8-4efd-a002-c2164dab8ce4</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.6.8</katalonVersion>

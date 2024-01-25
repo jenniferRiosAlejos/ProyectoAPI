@@ -44,4 +44,9 @@
       <initValue>'tokenLocal'</initValue>
       <name>tokenGlobal</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>base_url</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

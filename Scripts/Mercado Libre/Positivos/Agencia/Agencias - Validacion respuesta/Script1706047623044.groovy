@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Mercado Libre/Positivos/Oauth Carrier'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Mercado Libre/Positivos/Oauth/Oauth Carrier'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Response2 = WS.sendRequest(findTestObject('Desarrollo ML/Agencias - 200'))
+Response2 = WS.sendRequest(findTestObject('Desarrollo ML/Agencias/Agencias - 200'))
 
 agencias = WS.getElementPropertyValue(Response2, 'agencies')
 
