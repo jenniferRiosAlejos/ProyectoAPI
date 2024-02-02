@@ -17,13 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Response = WS.sendRequest(findTestObject('Desarrollo ML/Oauth/Oauth Carrier -Agencias'))
+Response1 = WS.sendRequest(findTestObject('Desarrollo ML/Oauth/Oauth Carrier - authorizations'))
 
-Token = WS.getElementPropertyValue(Response, 'access_token')
+Token = WS.getElementPropertyValue(Response1, 'access_token')
 
 print(Token)
 
-print(Response.getResponseText())
+Response2 = WS.sendRequest(findTestObject('Desarrollo ML/Crear envios/Crear Envios 200', [('base_url') : GlobalVariable.base_url]))
 
-WS.verifyResponseStatusCode(Response, 200)
+print(Response2.getResponseText())
+
+WS.verifyResponseStatusCode(Response2, 200)
 

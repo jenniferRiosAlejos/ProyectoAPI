@@ -12,9 +12,37 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>f902c618-e18a-4464-83ae-8d07877d76df</testSuiteGuid>
    <testCaseLink>
-      <guid>42b508e9-31ef-4447-b367-2a024fea3a7f</guid>
+      <guid>286cf53f-81d9-4833-9e89-e187a2b06879</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mercado Libre/Positivos/Agencia/Agencias - Validacion respuesta</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>da202dee-bbe6-4563-a4bb-54e0b1d61450</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mercado Libre/Positivos/Cancelar/Cancelar envios - Validación de response</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e63dc0f0-cfea-438b-bd33-86c35056e2ef</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mercado Libre/Positivos/Crear/Crear Envios - Validación response</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>52dda248-3afa-4f71-a46f-6849d9f12734</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mercado Libre/Positivos/Pull/Tracking Pull - Validación response</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b02e7fb4-b71b-4621-9979-b268b9d41294</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Mercado Libre/Positivos/Oauth/Oauth Carrier</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -23,53 +51,5 @@
          <value></value>
          <variableId>8c88c64f-1c0d-4ec5-978d-40db5fc0fa55</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b4dc86b9-19f4-4436-9de0-1f2755930a62</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Mercado Libre/Positivos/Oauth/Oauth Carrier - iteraciones audience</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>a631c8e2-6375-42ff-ab2c-5915eb2d2752</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/ML/audience List</testDataId>
-      </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0e8adf33-d80c-418f-a6c5-4ea429923e43</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>a631c8e2-6375-42ff-ab2c-5915eb2d2752</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>audience</value>
-         <variableId>de688b78-b9e4-44bc-9d01-017db869ea5c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>a631c8e2-6375-42ff-ab2c-5915eb2d2752</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>grant_type</value>
-         <variableId>fb274ddb-3f8a-4f5f-b41c-902960b4e175</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>e15adf4e-bdd2-4eb1-92a0-97e2479fe3ec</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Mercado Libre/Positivos/Agencia/Agencias</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0c6eea7a-16c4-4883-b261-3c934fcc387b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Mercado Libre/Positivos/Agencia/Agencias - Validacion respuesta</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

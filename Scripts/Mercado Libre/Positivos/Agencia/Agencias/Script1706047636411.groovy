@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Response1 = WS.sendRequest(findTestObject('Desarrollo ML/Oauth/Oauth Carrier - 200'))
+Response1 = WS.sendRequest(findTestObject('Desarrollo ML/Oauth/Oauth Carrier -Agencias'))
 
 Token = WS.getElementPropertyValue(Response1, 'access_token')
 

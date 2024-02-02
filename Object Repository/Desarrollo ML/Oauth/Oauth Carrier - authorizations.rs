@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Oauth Carrier - 200</name>
+   <name>Oauth Carrier - authorizations</name>
    <tag></tag>
-   <elementGuidId>15d93da5-5d09-440f-a312-0f776084f769</elementGuidId>
+   <elementGuidId>92e37bbf-ce6b-4155-a7ff-e51c0a069441</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>false</autoUpdateContent>
@@ -11,7 +11,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;audience\&quot;: \&quot;agencies\&quot;,\n    \&quot;grant_type\&quot;: \&quot;client_credentials\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;audience\&quot;: \&quot;authorizations\&quot;,\n    \&quot;grant_type\&quot;: \&quot;client_credentials\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
